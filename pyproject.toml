@@ -36,6 +36,7 @@ dependencies = [
     "sacremoses==0.1.1",
     # Utilidades
     "tqdm==4.67.1",
+    "tf-keras>=2.18.0",
 ]
 
 [dependency-groups]
