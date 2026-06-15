@@ -1,11 +1,13 @@
 [project]
 name = "tareas"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = "==3.12"
 dependencies = [
+    "ipykernel>=7.3.0",
     "matplotlib>=3.11.0",
-    "numpy>=2.4.6",
-    "pandas>=3.0.3",
+    "numpy<2",
+    "pandas<3",
     "scikit-learn>=1.9.0",
+    "scikit-learn-extra>=0.3.0",
     "seaborn>=0.13.2",
 ]
