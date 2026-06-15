@@ -3,17 +3,11 @@ name = "tareas"
 version = "0.1.0"
 requires-python = "==3.12"
 dependencies = [
-    "numpy>=1.26,<3",
-    "matplotlib>=3.8,<4",
-    "pandas>=2.2,<3",
-    "scikit-learn>=1.3,<1.6",
-    "scikit-learn-extra>=0.3.0",
-    "jupyterlab>=4.0,<5",
-    "ipykernel>=6.29,<7",
-    "seaborn>=0.13.2",
-    "plotly>=6.8.0",
-    "bokeh>=3.9.1",
-    "jupyter-bokeh>=4.1.0",
+    "numpy>=1.26.4,<3",
+    "pandas>=2.2.3,<3",
+    "scikit-learn>=1.5.2,<1.8",
+    "jupyterlab>=4.3,<5",
+    "ipykernel>=6.29.5,<7",
 ]
 
 [tool.uv]
